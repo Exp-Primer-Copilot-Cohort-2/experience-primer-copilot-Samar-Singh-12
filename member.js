@@ -1,6 +1,5 @@
-function skillsMember() {
-    console.log('skillsMember')
-    return {
-        name: 'John Doe',
-    }
+function skillMember() {
+    this.name = "John Doe";
+    this.age = 30;
+    this.skills = ["JavaScript", "HTML", "CSS"];
 }
